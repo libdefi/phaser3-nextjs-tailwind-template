@@ -12,7 +12,7 @@ const StartGame = (parentElementId: string): Phaser.Game => {
     physics: {
       default: "arcade",
       arcade: {
-        gravity: { x: 0, y: 0 }, // ここで x: 0 を追加します
+        gravity: { x: 0, y: 0 },
         debug: false,
       },
     },
