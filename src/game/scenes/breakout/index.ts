@@ -95,7 +95,7 @@ export class Breakout extends Scene {
     brick.disableBody(true, true);
 
     if (this.bricks.countActive() === 0) {
-      this.resetLevel();
+      this.scene.start("gameclear");
     }
   }
 
